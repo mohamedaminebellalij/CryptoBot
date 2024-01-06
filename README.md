@@ -1,5 +1,20 @@
-pour executer le scripte lancer:
+Avant de lancer le script ""Crypto_bot_interface.py"" il faut installer les bibliothèques suivantes:
 
-dans le chemin où se trouve le fichier  .py la commande suivante:
+!pip install pystan
 
-streamlit run crypto_bot_interface.py
+!pip install prophet
+
+!pip install cryptocompare
+
+!pip install cx_Oracle
+
+!pip install streamlit
+
+Ensuite lancer le script avec la commande suivante :
+
+> streamlit run crypto_bot_interface.py
+
+pour la partie stockage de données il faut lancer sur jupyter notebook le ficher suivant:
+
+""connexion et insertion data Oracle crypto_bot.ipynb""
+
